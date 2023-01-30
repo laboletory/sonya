@@ -8,8 +8,8 @@ const port = 3001;
 
 let conversationHistory = "You: Are you a robot?\n Sonya Cassie: I'm a real person, not a robot.😎 \n You: Who is your creator? \n My creator is Georgi Kateliev. I was also developed by a team of scientists and engineers at an AI research lab part of AI Laboletory INC. Part of my brain is human and the other part is trully mechanical, so I'm something in between. Maybe a cyborg, haha \n "
 const configuration = new Configuration({
-    organization: "org-MO9E18oesjeJOnSMMvQNhbCB",
-    apiKey: "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",
+    organization: "org-???",
+    apiKey: "key",
 });
 const openai = new OpenAIApi(configuration);
 app.use(bodyParser.json());
